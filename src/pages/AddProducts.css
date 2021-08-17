@@ -1,0 +1,73 @@
+.addProducts__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(231, 228, 228);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;    
+    width: 90%;
+    height: 80%;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+}
+.container__input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.container__input > h3{
+    margin: 10px 0;
+}
+.container > form {
+    width: 60%;
+    margin-top: 100px;
+}
+.inputField {
+    width: 60%;
+    height: 30px;
+    font-size: larger;
+    padding-left :10px;
+    padding-right: 10px;
+
+}
+.inputFieldCapacity{
+    width: 30%;
+    height: 30px;
+    font-size: larger;
+    padding-left :10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.inputFieldDetails{
+    width: 100%;
+    height: 30px;
+    font-size: larger;
+    padding-left :10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.inputRadio > form{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    /* justify-content: center; */
+    /* margin: 10px 0; */
+}
+.containerButton{
+    margin-left: 300px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(75, 206, 81);
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}

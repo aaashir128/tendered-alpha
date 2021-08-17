@@ -1,0 +1,155 @@
+.login {
+  display: flex;
+  width: 100%;
+  /* flex-direction: column; */
+}
+.login__left {
+  background-color: #272c46;
+
+  width: 40%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+
+}
+
+.login__image {
+  object-fit: contain;
+  object-position: center;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform ease-out 0.3s;
+}
+.login__image:hover{
+    transform: scale(0.95);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+}
+
+.login__right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.login__rightTop{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+}
+
+.loginLogo{
+    height: 80px;
+    width: 200px;
+    object-fit: contain;
+}
+.homeButton{
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(98, 125, 236);
+    color: rgb(89, 89, 240);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Working Start for Center Login components  */
+.login__center{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 100px;    
+}
+.login__center > h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.login__center > form {
+    display: flex;
+    flex-direction: column;
+}
+.login__center > form > input {
+    width: 350px;
+    height: 35px;
+    margin: 10px 0;
+    background-color: transparent;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.login__center > form > button{
+    width: 240px;
+    height: 40px;
+    background-color: rgb(59, 200, 63);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform ease-out 0.3s;
+}
+.login__center > form > button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: rgb(59, 200, 63);
+}
+
+.signUp{
+    display: flex;
+    margin: 10px 0;
+    max-width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.signUpButton{
+
+    width: 120px;
+    height: 40px;
+    /* background-color: rgb(253, 139, 9); */
+    background-color: transparent;
+    color: green;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform ease-out 0.3s;
+}
+.signUpButton:hover{
+    background-color: rgb(97, 170, 97);
+    color: white;
+    transform:scale(1.1);
+}
+.forgotPassword{
+    display: flex;
+    margin: 10px 0;
+    max-width: 350px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.forgotButton{
+    width: 120px;
+    height: 40px;
+    /* background-color: rgb(253, 58, 9); */
+    background-color: transparent;
+    color: Red;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform ease-in 0.3s;
+}
+.forgotButton:hover{
+    background-color: rgb(253, 58, 9);
+    color: white;
+    transform: scale(1.1);
+}
+/* Working End for Center Login components  */

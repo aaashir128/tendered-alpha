@@ -1,0 +1,106 @@
+.sidebar {
+  background-color: #272c46 !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  color: lightgray;
+  align-items: center;
+
+}
+.sidebar__header {
+  padding: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(74, 78, 78);
+}
+.headerLogo {
+  overflow: hidden;
+  object-fit: contain;
+  position: relative;
+  width: 100%;
+  height: 48px;
+}
+.sidebar__headerAccount {
+  margin-top: 0px;
+  font-weight: bold;
+  background: grey;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 10px;
+}
+.sidebar__headerAccountActive{
+  margin-top: 0px;
+  font-weight: bold;
+  color: white;
+  background: rgb(77, 167, 104);
+  font-size: 14px;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+}
+.sidebar__headerAccount > p {
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px;
+  text-align: center;
+
+}
+
+.sidebar__options{
+   justify-content: space-between;
+   padding: 20px 0;
+   width: 100%;
+   border-bottom: 1px solid rgb(74, 78, 78);
+}
+.sidebar__option{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.sidebar__blank{
+    width: 100%;
+    padding: 150px 0;
+    border-bottom: 1px solid rgb(74, 78, 78);
+
+}
+.sidebar__user{
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px solid rgb(74, 78, 78);
+}
+.siderbar__login{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.siderbar__login > a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar__loginButtons{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+
+}
+.sidebar__loginButtons > h4{
+  font-size: 14px;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+.sidebar__support{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.siderbar__backword{
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(35, 35, 110);
+}

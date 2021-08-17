@@ -1,0 +1,68 @@
+/* .header{
+    background-color: transparent!important;
+    height: 64px;
+    z-index: 5;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+} */
+
+.header{
+    height: 64px;
+    padding: 0 50px;
+    color: rgba(0,0,0,.85);
+    line-height: 64px;
+    background: #001529;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left{
+    flex: 1;
+    cursor: pointer;
+}
+
+.header__logo{
+    width: 250px;
+}
+
+.header__right{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.header__rightOptions > a{
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.MuiInputBase-root{
+    background-color: white;
+}
+.header__rightOptionsLogin{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.header__rightOptionsLogin > button {
+    margin-top: -20px;
+}
+.header__rightOptionsLogin > h4 {
+    margin-top: -10px;
+}
+.header__rightOptionsLogin > a > h4{
+    margin-top: -20px;
+}
+.header__rightOptionsLogin > a > h3{
+    margin-top: -30px;
+}
+.header__rightOptionsLogin > a {
+    text-decoration: none;
+    color: white;
+}

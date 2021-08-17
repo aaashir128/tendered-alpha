@@ -1,0 +1,52 @@
+.products{
+    display: flex;
+    width: 500px !important;
+    height: 160px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.products__left{
+   
+}
+.prducts__image{
+    height: 160px;
+    object-fit: contain;
+    
+
+}
+
+.products__right{
+ margin: 10px 15px;
+}
+.products__right > h4{
+    font-weight: 600;
+    font-size: larger;
+}
+.type{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
+    color: darkgray;
+    margin-top: -5px;
+}
+.capacity{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(228, 177, 49);
+    margin-top: 5px;
+}
+.addButton{
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    border: 1px solid rgb(109, 192, 109);
+    font-size: large;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: rgb(109, 192, 109);
+    cursor: pointer;
+}
